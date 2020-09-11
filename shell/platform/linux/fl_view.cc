@@ -21,8 +21,6 @@
 #include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
 #include "flutter/shell/platform/linux/public/flutter_linux/fl_plugin_registry.h"
 
-#include <gdk/gdkx.h>
-
 static constexpr int kMicrosecondsPerMillisecond = 1000;
 
 struct _FlView {
