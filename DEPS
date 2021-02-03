@@ -195,8 +195,7 @@ deps = {
   'src/third_party/dart/third_party/pkg/dartdoc':
    Var('dart_git') + '/dartdoc.git@2bef0f260594b822f55c8c8f777d9c4c1ea8f76c',
 
-  'src/third_party/dart/third_party/pkg/ffi':
-   Var('dart_git') + '/ffi.git@454ab0f9ea6bd06942a983238d8a6818b1357edb',
+  'src/third_party/dart/third_party/pkg/ffi': 'https://github.com/dwrobel/ffi.git@454ab0f9ea6bd06942a983238d8a6818b1357edb',
 
   'src/third_party/dart/third_party/pkg/fixnum':
    Var('dart_git') + '/fixnum.git@16d3890c6dc82ca629659da1934e412292508bba',
